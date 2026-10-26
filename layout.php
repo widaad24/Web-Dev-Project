@@ -14,7 +14,7 @@
         <div class="p-4">
           <a href="#" class="navbar-brand">
             <div class="row">
-              <h5 class="">My Company</h5>
+              <h5 class="">Beard Trimmer</h5>
             </div>
           </a>
           <hr>                  
@@ -29,6 +29,12 @@
               <a href="" class="text-decoration-none text-white">
                 <i class="bi bi-bar-chart-line-fill me-2"></i>
                 Dashboard
+              </a>
+            </li>
+            <li class="nav-item mb-3">
+              <a href="" class="text-decoration-none text-white">
+                <i class="bi bi-bar-chart-line-fill me-2"></i>
+                Products
               </a>
             </li>
             <!-- Add more menus -->
