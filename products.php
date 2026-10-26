@@ -99,6 +99,62 @@ ob_start();
     </div>
 </div>
  
+<div class="card shadow-sm">
+    <div class="card-body">
+  
+        <div class="row align-items-center mb-3">
+            <div class="col">
+                <h5 class="mb-0">
+                    <i class="bi bi-table text-primary me-2"></i>
+                    Product List
+                </h5>
+                <small class="text-muted">View and manage all products in the inventory</small>
+            </div>
+            <div class="col-auto">
+                <span class="badge bg-success">Total: 1 items</span>
+            </div>
+        </div>
+ 
+        <hr>
+ 
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Brand</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>P001</td>
+                        <td>Road Bike</td>
+                        <td>$1,200.00</td>
+                        <td>Cervelo</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil"></i>
+                            </a>
+                            <button type="button" class="btn btn-sm btn-info text-white">
+                                <i class="bi bi-image"></i>
+                            </button>
+                            <a href="#" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="text-center">No products found</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
 <?php
 $content = ob_get_clean();
 require_once 'layout.php';
