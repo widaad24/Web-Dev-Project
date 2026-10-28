@@ -53,27 +53,25 @@ ob_start();
                 </div>
  
                 <div class="col-md-3">
-                    <label for="product_condition" class="form-label">Condition <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_condition" id="product_condition" class="form-select" required>
-                        <option value="">Select Condition</option>
-                        <option value="New">New</option>
-                        <option value="Used">Used</option>
+                    <label for="product_power" class="form-label">Power Type <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_power" id="product_power" class="form-select" required>
+                        <option value="">Select Power Type</option>
+                        <option value="Cordless">Cordless</option>
+                        <option value="Corded">Corded</option>
+                        <option value="Rechargeable">Rechargeable</option>
                     </select>
                 </div>
- 
+
                 <div class="col-md-3">
-                    <label for="year" class="form-label">Manufacturing Year <span class="text-danger" aria-hidden="true">*</span></label>
-                    <select name="product_year" id="year" class="form-select" required>
-                        <option value="">Select Year</option>
-                        <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-                        <option value="2023">2023</option>
-                        <option value="2024">2024</option>
-                        <option value="2025">2025</option>
-                        <option value="2026">2026</option>
+                    <label for="product_color" class="form-label">Color <span class="text-danger" aria-hidden="true">*</span></label>
+                    <select name="product_color" id="product_color" class="form-select" required>
+                        <option value="">Select Color</option>
+                        <option value="Black">Black</option>
+                        <option value="Silver">Silver</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Red">Red</option>
                     </select>
-                </div>
+                </div>  
                  
                 <div class="col-md-3">
                     <label for="quantity" class="form-label">Quantity <span class="text-danger" aria-hidden="true">*</span></label>
