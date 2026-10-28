@@ -29,8 +29,8 @@ ob_start();
                     <label for="product_num" class="form-label">Product <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="product_num" id="product_num" class="form-select" required>
                         <option value="">Select Product</option>
-                        <option value="P001">Road Bike (Stock = 10)</option>
-                        <option value="P002">Mountain Bike (Stock = 5)</option>
+                        <option value="P001">Pro Beard Trimmer (Stock = 10)</option>
+                        <option value="P002">Cordless Hair Clipper (Stock = 5)</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -62,20 +62,19 @@ ob_start();
                         <th>Actions</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>Road Bike</td>
-                        <td>$1,200.00</td>
-                        <td>1</td>
-                        <td>$1,200.00</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
-                            <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
-                        </td>
-                    </tr>
-                    <tr><td colspan="5" class="text-center">No products added to this order</td></tr>
-                </tbody>
-                <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>$1,200.00</th><th></th></tr></tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Pro Beard Trimmer</td>
+                            <td>$49.90</td>
+                            <td>1</td>
+                            <td>$49.90</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-warning"><i class="bi bi-pencil"></i></a>
+                                <a href="#" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot><tr><th colspan="3" class="text-end">Grand Total</th><th>$49.90</th><th></th></tr></tfoot>
             </table>
         </div>
         <a href="orders.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Orders</a>

@@ -48,8 +48,8 @@
               </div>
                            
               <div class="d-inline-block align-middle ms-2 text-start">
-                <h6 class="mb-0 text-nowrap">User</h6>
-                <small class="text-white-50 text-nowrap d-block">user@email.com</small>
+                <h6 class="mb-0 text-nowrap">'Umar Widaad</h6>
+                <small class="text-white-50 text-nowrap d-block">A223297@siswa.ukm.edu.my</small>
               </div>
                          
             </a>

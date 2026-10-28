@@ -54,7 +54,7 @@ ob_start();
                     <label for="register_date" class="form-label">Register Date <span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="register_date" id="register_date" type="date" class="form-control" placeholder="Select Register Date" value="" required>
                 </div>
- 
+            </div>
     
              
             <hr class="mt-4 mb-3">
@@ -83,7 +83,7 @@ ob_start();
                 <small class="text-muted">View and manage all customers</small>
             </div> 
             <div class="col-auto">
-                <span class="badge bg-success">Total: 1 items</span>
+                <span class="badge bg-success">Total: 3 items</span>
             </div>
         </div>
  
@@ -101,26 +101,53 @@ ob_start();
                         <th>Actions</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>C001</td>
-                        <td>John Doe</td>
-                        <td>Male</td>
-                        <td>123-456-7890</td>
-                        <td>2023-01-01</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-warning">
-                                <i class="bi bi-pencil"></i>
-                            </a>
-                            <a href="#" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="6" class="text-center">No customers found</td>
-                    </tr>
-                </tbody>
+                    <tbody>
+                        <tr>
+                            <td>C001</td>
+                            <td>Alice Johnson</td>
+                            <td>Female</td>
+                            <td>012-3456789</td>
+                            <td>2026-09-12</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-warning">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a href="#" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>C002</td>
+                            <td>Ahmad Faiz</td>
+                            <td>Male</td>
+                            <td>013-9876543</td>
+                            <td>2026-09-25</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-warning">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a href="#" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>C003</td>
+                            <td>Daniel Lee</td>
+                            <td>Male</td>
+                            <td>016-2468135</td>
+                            <td>2026-10-03</td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-warning">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                                <a href="#" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
             </table>
         </div>
     </div>

@@ -98,9 +98,9 @@ ob_start();
                 <tbody>
                     <tr>
                         <td>O001</td>
-                        <td>2023-10-01</td>
+                        <td>2026-10-03</td>
                         <td>John Doe</td>
-                        <td>Jane Smith</td>
+                        <td>Alice Johnson</td>
                         <td>
                             <a href="#" class="btn btn-sm btn-warning">
                                 <i class="bi bi-pencil"></i>
@@ -111,9 +111,6 @@ ob_start();
                             <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details"><i class="bi bi-list"></i></a>
                             <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice"><i class="bi bi-receipt"></i></a>
                         </td>
-                    </tr>
-                    <tr>
-                        <td colspan="6" class="text-center">No orders found</td>
                     </tr>
                 </tbody>
             </table>
